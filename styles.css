@@ -8,3 +8,15 @@ body {
 p {
 	font-size: 14pt;
 }
+
+.review {
+	display: flex;
+	align-content: space-around;
+	flex-direction: row;
+	padding: 50px;
+}
+
+.albumart {
+	padding: 20px;
+	border-radius: 50%;
+}
