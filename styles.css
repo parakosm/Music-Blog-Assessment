@@ -29,3 +29,10 @@ p {
 	justify-content: center;
 	flex-direction: row;
 }
+
+.reviewhub {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
