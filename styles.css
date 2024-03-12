@@ -38,3 +38,29 @@ p {
 	height: 1000px;
 	margin: auto;
 }
+
+#300pxdiv {
+	height: 300px;
+}
+
+.aboutme {
+	display: flex;
+	flex-direction: row;
+	align-content: space-between;
+	justify-content: flex-start;
+}
+
+.aboutMepagePanel {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	height: 700px;
+	width: 400px;
+	margin: auto;
+}
+
+.maincarousel {
+	width: 1200px;
+	height: 500px;
+}
