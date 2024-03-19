@@ -3,15 +3,20 @@
 main {
 	font-family: Haettenschweiler;
 	font-size: 12pt;
-	padding: 40px;
 	color: aliceblue;
 	background-color: black;
+	padding: 40px;
 }
 
 p {
 	font-size: 14pt;
 	font-family: Arial;
 	color: whitesmoke;
+}
+
+body {
+	padding: none;
+	background-color: black
 }
 
 .review {
@@ -39,8 +44,6 @@ p {
 	flex-direction: column;
 	justify-content: center;
 	align-content: center;
-	width: 1200px;
-	height: 1000px;
 	margin: auto;
 }
 
@@ -106,6 +109,7 @@ header {
 	flex-direction: row;
 	align-content: space-around;
 	background-image: linear-gradient(darkcyan, slategray);
+	height: 75px;
 }
 
 .carousel-inner a {
