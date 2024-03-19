@@ -97,6 +97,30 @@ p {
 	padding: 25px;
 }
 
-carousel-inner {
+.carousel-inner {
+	color: aliceblue;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	align-content: space-around;
+	background-image: linear-gradient(darkcyan, slategray);
+}
+
+.carousel-inner a {
+	color: lightgrey;
+}
+
+header nav {
+	margin: auto;
+}
+
+header a {
+	color: aliceblue;
+}
+
+header h1 {
+	margin: auto;
 	color: aliceblue;
 }
