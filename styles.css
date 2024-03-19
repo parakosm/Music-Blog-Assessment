@@ -1,13 +1,17 @@
 /* CSS Document */
 
-body {
-	font-family: Arial;
+main {
+	font-family: Haettenschweiler;
 	font-size: 12pt;
 	padding: 40px;
+	color: aliceblue;
+	background-color: black;
 }
 
 p {
 	font-size: 14pt;
+	font-family: Arial;
+	color: whitesmoke;
 }
 
 .review {
@@ -91,4 +95,8 @@ p {
 	display: flex;
 	flex-wrap: wrap-reverse;
 	padding: 25px;
+}
+
+carousel-inner {
+	color: aliceblue;
 }
