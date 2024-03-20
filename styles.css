@@ -144,3 +144,7 @@ header h1 {
 	font-family: Arial;
 	text-shadow: 3px 3px black;
 }
+
+.reviewpreview h2 {
+	font-size: 18pt;
+}
