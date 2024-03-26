@@ -21,6 +21,7 @@ p {
 	font-size: 14pt;
 	font-family: Arial;
 	color: whitesmoke;
+	margin: auto;
 }
 
 body {
@@ -55,22 +56,27 @@ body {
 
 .aboutme {
 	display: flex;
-	flex-direction: row;
-	align-content: space-between;
-	justify-content: flex-start;
+	justify-content: space-around;
+	align-items: flex-start;
 }
 
 .aboutMepagePanel {
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-content: center;
+	align-items: flex-start;
 	height: 700px;
 	width: 400px;
 	margin: auto;
+	flex-direction: column;
+	text-align: justify;
 }
 
+.aboutMepagePanel p {
+	margin: auto;
+}
 
+.aboutMepagePanel h2 {
+	margin: auto;
+}
 
 .main-carousel {
 	margin: 100px;
