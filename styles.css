@@ -12,6 +12,11 @@ main {
 	padding: 40px;
 }
 
+h2 {
+	letter-spacing: 2px;
+	font-weight: normal;
+}
+
 p {
 	font-size: 14pt;
 	font-family: Arial;
@@ -33,13 +38,7 @@ body {
 .albumart {
 	padding: 20px;
 	border-radius: 50%;
-}
-
-.reviewpreview {
-	height: 300px;
-	display: flex;
-	align-content: space-around;
-	justify-content: center;
+}`
 	flex-direction: row;
 }
 
