@@ -38,7 +38,6 @@ body {
 .albumart {
 	padding: 20px;
 	border-radius: 50%;
-}`
 	flex-direction: row;
 }
 
@@ -146,4 +145,40 @@ header h1 {
 
 .reviewpreview h2 {
 	font-size: 18pt;
+}
+
+.reviewpreview img {
+	border: solid 3px whitesmoke;
+	border-radius: 10px;
+	box-shadow: 5px 5px 3px slategray;
+	padding: 5px;
+}
+
+.reviewpreview div {
+	padding: 5px;
+}
+
+.reviewpreview {
+	display: flex;
+	align-content: space-between;
+	justify-conetent: center;
+	width: 1000px;
+	height: 300px;
+	margin: auto;
+	border: solid 5px slategray;
+	border-radius: 10px;
+	box-shadow: 8px 8px 5px darkslategray;
+	padding: 10px;
+}
+
+.spacediv {
+	height: 50px;
+}
+
+div {
+	margin: auto;
+}
+
+img {
+	margin: auto;
 }
