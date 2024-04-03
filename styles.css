@@ -22,6 +22,7 @@ p {
 	font-family: Arial;
 	color: whitesmoke;
 	margin: auto;
+	white-space: pre-line;
 }
 
 body {
