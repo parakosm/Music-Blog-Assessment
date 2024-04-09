@@ -1,4 +1,10 @@
 <!doctype html>
+<!--
+	Home Page for Eli's Music Reviews
+	File: index.html
+	Author: Eli Hansen
+	Date: Mrach 2024
+-->
 <html>
 <head>
 <meta charset="utf-8">
@@ -11,6 +17,7 @@
 <body>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 	<header>
+		<!-- Navigation Bar -->
 		<h1>
 			Eli's Music Reviews
 		</h1>
@@ -21,33 +28,43 @@
 		</nav>
 	</header>
 	<main id="indexpage">
+		
+		<!-- This contains the carousel and the tile above it -->
 		<div id="carobox">
+			
+			<!-- Title above the carousel -->
 			<h2 style="margin: auto;">New Music Reviews- Click to Read</h2>
+			
+			<!-- Carousel -->
 			<div class="main-carousel shadowbox">
 				<div id="carouselExample" class="carousel slide">
+					
+					<!-- Carousel Slides -->
 				  <div class="carousel-inner">
 					<div class="carousel-item active">
-					  <img src="media/abrbgroupphoto.jpg" alt="Group photo of As Blood Run Black" height="800" width="800" class="d-block w-100">
+					  <img src="media/abrbgroupphoto.jpg" alt="Group photo of As Blood Run Black" height="600" width="800" class="d-block w-100">
 						 <div class="carousel-caption d-none d-md-block">
 							 <h3>As Blood Runs Black- Intro</h3>
 							 <p><a href="reviews/abrbintro.html">Click here to read more!</a></p>
 						</div>
 					</div>
 					<div class="carousel-item">
-					  <img src="media/chevellegroupphoto.jpg" alt="Group photo of Chevelle" height="800" width="800" class="d-block w-100">
+					  <img src="media/chevellegroupphoto.jpg" alt="Group photo of Chevelle" height="600" width="800" class="d-block w-100">
 						<div class="carousel-caption d-none d-md-block">
 							 <h3>Chevelle- Peach</h3>
 							 <p><a href="reviews/chevellepeach.html">Click here to read more!</a></p>
 						</div>
 					</div>
 					<div class="carousel-item">
-					  <img src="media/northlanegroupphoto.jpg" alt="Group photo of Northlane" height="800" width="800" class="d-block w-100">
+					  <img src="media/northlanegroupphoto.jpg" alt="Group photo of Northlane" height="600" width="800" class="d-block w-100">
 						<div class="carousel-caption d-none d-md-block">
 							 <h3>Northlane- Plenty</h3>
 							 <p><a href="reviews/northlaneplenty.html">Click here to read more!</a> I'm sorry for doing you dirty at low res, Marcus</p>
 						</div>
 					</div>
 				  </div>
+					
+					<!-- Carousel buttons -->
 				  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 					<span class="visually-hidden">Previous</span>
@@ -59,22 +76,33 @@
 				</div>
 			</div>
 		</div>
+		
+		<!-- Bottom two boxs in the indedx page -->
 		<div id="indexbottom">
+			
+			<!-- Bottom left box -->
 			<div class="boxindex" style="margin: auto; padding: 10px;">
 				<h2>About this blog</h2>
 				<p>Partly, I made this website because I wanted to review metal music. But mainly, I needed to make a website for my digital technology assessment and I wanted to do something other than make an ad for my school. This felt natural to me, because it gave me plenty of freedom to think for myself nad incorporate cool ideas, while still having a defined scope of what I needed to work on. After all, you can do a lot of cool stuff with websites, but you can do a lot less when you only have 4/5 weeks to do it. But hey: metal is fun! So maybe I'll keep this website going anyway so that I have something to add to now and then. My future plans for this website include ... <a href="aboutme.html" class="link">Click to keep reading!</a></p>
 			</div>
+			
+			<!-- Div to create space -->
 			<div style="width: 300px;"></div>
+			
+			<!-- Bottom right box box -->
 			<div id="reviewoftheweek" class="boxindex">
 				<div>
 					<h2>Review of the Week: As Blood Runs Black- Intro</h2>
 					<p>You might wonder what posessed me to review a song that comes in under one minute. To be honest, that's a very good question, and the answer is "A friend told me to." Granted, I suppose I sitll bear some of the responsibility given that I picked the songs by scrolling at massive speeds through my spotify playlist and getting my friends to point to ... <a href="reviews/abrbintro.html" class="link">Click here to read more!</a></p>
 				</div>
+				
+				<!-- Image to the right of text in box -->
 				<img src="media/allegiance.jpg" width="400" height="400" alt="Album cover used for As Blood Runs Black's Alliegience, the release wihich this song was included in">
 			</div>
 		</div>
 	</main>
 	<footer class="footer">
+		<!-- Footer -->
 		<h1>Eli's Music Reviews</h1>
 		<h3>Copyright (c) Eli Hansen 2024</h3>
 	</footer>
